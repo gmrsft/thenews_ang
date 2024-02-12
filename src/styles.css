@@ -1,0 +1,25 @@
+/*camada global do projeto*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Segoe UI";
+}
+a{
+  text-decoration: none;
+}
+
+.botãovoltar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  text-decoration: none; /* Remover sublinhado do link */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+.botãovoltar:hover {
+  background-color: #0056b3; /* Mudar a cor de fundo ao passar o mouse */
+}
+

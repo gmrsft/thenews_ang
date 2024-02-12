@@ -1,0 +1,58 @@
+/* todolist.component.css */
+
+.todo-list-container {
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 1500px; /* Define uma largura para o container */
+  max-width: 800px; /* Define o máximo de largura */
+}
+
+.todo-list-container input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.todo-items {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button {
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #bd2130;
+}

@@ -1,0 +1,23 @@
+<div class="container__big-card">
+
+  <div clas="big-carg__photo">
+    <img
+    src="{{ photoCover }}"
+    alt="imagem de uma cupula espacial"
+    height="340px"
+    width="395rem"
+    srcset="">
+  </div>
+
+  <div class="big-card__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+      {{ cardDescription }}
+      </a>
+    </p>
+
+  </div>
+</div>

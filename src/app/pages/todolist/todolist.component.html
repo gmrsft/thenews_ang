@@ -1,0 +1,17 @@
+<a [routerLink]="['']" class="botãovoltar"> << VOLTAR </a>
+<div class="todo-list-container">
+  <input type="text" [(ngModel)]="newTodo" placeholder="Adicionar novo item">
+  <button class="add-button" (click)="addTodo()">Adicionar</button>
+</div>
+
+<ul class="todo-items">
+  <li *ngFor="let todo of todos; let i = index" class="todo-item">
+    <span>{{ i + 1 }}. {{ todo }}</span> <!-- Adiciona o número da tarefa -->
+    <div>
+      <button class="move-button" (click)="moveUp(i)" [disabled]="i === 0">↑</button> <!-- Botão para subir -->
+      <button class="move-button" (click)="moveDown(i)" [disabled]="i === todos.length - 1">↓</button> <!-- Botão para descer -->
+      <button class="remove-button" (click)="removeTodo(i)">Remover</button>
+    </div>
+  </li>
+
+</ul>
