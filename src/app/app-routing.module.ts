@@ -3,7 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { TodolistComponent } from './pages/todolist/todolist.component'; // Importe o TodolistComponent
-import { QuizzComponent } from './pages/quizz/quizz.component'
+import { QuizzComponent } from './pages/quizz/quizz.component';
+import{ ApiconsumComponent } from './pages/apiconsum/apiconsum.component';
+import { PooComponent } from './pages/poo/poo.component'
 
 // Configuração das rotas da aplicação, paginação
 const routes: Routes = [
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: 'buzzfeed',
     component: QuizzComponent
+  },
+  {
+  path: 'apiconsum',
+  component: ApiconsumComponent
+  },
+  {
+    path: 'poo',
+    component: PooComponent
   }
 ];
 

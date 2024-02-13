@@ -1,0 +1,22 @@
+/* poo.component.css */
+.section-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-info {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-info p {
+    margin: 5px 0;
+  }
+  
+  .vehicle-info p strong {
+    font-weight: bold;
+  }
+  
